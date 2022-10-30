@@ -1,0 +1,112 @@
+body {
+  margin: 1;
+  font-family: Arial, Helvetica, DM sans;
+  background-color: #a28089;
+}
+
+.logo1 {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 50px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #a28089;
+  color: black;
+  color: whitesmoke;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+#index-head {
+  margin: 55px;
+  letter-spacing: 10.2px
+}
+
+
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about .content .btn-learn-more {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 5px;
+  transition: 0.3s;
+  color: #9d8484;
+  background-color: whitesmoke;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid whitesmoke;
+}
+
+.about .content .btn-learn-more:hover {
+  background: #9d8484;
+  color: black;
+  text-decoration: none;
+}
+
+.head-about {
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 54px;
+  border-radius: 4px;
+}
+
+.about-me {
+  margin: 40px;
+}
+
+
+ul#social-media li {
+  display: inline;
+  float: right;
+}
+
+.space {
+  margin-left: 20px;
+}
